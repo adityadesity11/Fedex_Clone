@@ -1,0 +1,162 @@
+.container{
+    position: fixed;
+    width: 100%;
+    /* border: 3px black solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: #540794; */
+    background-color: #4f088a;
+    align-items: center;
+}
+.item{
+    /* border: solid black 3px; */
+    color: white;
+}
+.item a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.item a:hover{
+    text-decoration: underline;
+}
+
+#item1{
+    margin-left: 27px;
+}
+#item6{
+margin-right: 140px;
+}
+#item8{
+    margin-right: 10px;
+}
+
+.search{
+    text-align: center;
+    width: 60%;
+    /* margin-right: 5px; */
+}
+.box{
+    
+    /* border: 3px solid black; */
+    height: 70vh;
+    background-size: auto;
+    background-repeat: round;
+    display: flex;
+    background-image: url('bg.jpg') ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;       
+    
+}
+.para{
+      /* margin-left: 40vw; */
+    /* border: solid black 2px; */
+    padding: 6px;
+    margin-right: 215px;
+    color: cornsilk;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+section{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subs{
+    display: inline-block;
+    /* border: solid black 2px; */
+    width: 50vw;
+    height: 80vh;
+    text-align: center;
+    
+    
+}
+#subs1{
+    margin-left: 40px;
+    margin-right: 0px;
+}
+#subs2{
+    margin-left: 0px;
+}
+.subs p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    margin-top: 25px;
+    border-radius: 30px;
+    border: solid rgb(16, 146, 221) 2px;
+    padding: 15px;
+    color: rgb(16, 146, 221);
+    width: 150px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:rgb(16, 146, 221) ;
+    border: solid white 2px;
+    color: azure;       /*good move, bhoola nahi hai tu abhi tak*/
+    
+}
+/* niche ka maal */
+.credits{
+    margin-top: 20vh;
+    /* border: 2px solid black; */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color:rgb(255, 249, 249) ;
+}
+.channel{
+    margin-right: 12px;
+    width: 20vw;
+    /* border: 2px solid black; */
+    height: 40vh;
+    text-align: left;
+
+}
+
+.heading{
+    color: #4f088a ;
+}
+div div a{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    font-size: 0.8rem;
+}
+div div a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.social{
+    /* border: black solid 2px; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.social_img{
+    padding: 0px 13px;
+}
+.rect{
+    margin-top: 196px;
+    /* border: 2px solid black; */
+    height: 60px;
+    margin: auto;
+    background-color: #4f088a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+        
+    
+
+}
+.down{
+    color: white;
+}
