@@ -45,7 +45,7 @@ margin-right: 140px;
     background-size: auto;
     background-repeat: round;
     display: flex;
-    background-image: url('bg.jpg') ;
+    background-image: url('/Images/bg.jpg') ;
     background-repeat: no-repeat ;
     background-size: cover;
     justify-content: center;
